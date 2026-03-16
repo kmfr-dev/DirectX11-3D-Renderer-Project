@@ -4,6 +4,19 @@
 *.user
 *.userosscache
 *.sln.docstates
+*.VC.db
+*.VC.opendb
+
+# Visual Studio resource cache
+*.aps
+
+# Build directories
+Debug/
+Release/
+x64/
+x86/
+Bin/
+BinObj/
 
 # Prerequisites
 *.d
@@ -26,6 +39,7 @@
 
 # Debugger Files
 *.pdb
+*.idb
 
 # Compiled Dynamic libraries
 *.so
@@ -49,3 +63,7 @@
 
 # debug information files
 *.dwo
+
+# Windows
+Thumbs.db
+Desktop.ini
