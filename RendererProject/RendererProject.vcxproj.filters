@@ -19,7 +19,10 @@
     <Filter Include="01. Engine">
       <UniqueIdentifier>{94b087e4-1c30-4cc0-ae87-6dbe4deb0ed5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="01. Engine\Device">
+    <Filter Include="01. Engine\02. Math">
+      <UniqueIdentifier>{89ba0c71-773e-4676-bfb3-ac43815a24aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Engine\01. Device">
       <UniqueIdentifier>{74c97201-741a-47dd-80cc-22de6052ad3f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -34,7 +37,7 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Engine\Device\Device.h">
-      <Filter>01. Engine\Device</Filter>
+      <Filter>01. Engine\01. Device</Filter>
     </ClInclude>
     <ClInclude Include="Common\Define.h">
       <Filter>00. Common</Filter>
@@ -44,6 +47,18 @@
     </ClInclude>
     <ClInclude Include="Common\TimerManager.h">
       <Filter>00. Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Math\EngineMath.h">
+      <Filter>01. Engine\02. Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Math\Vector2.h">
+      <Filter>01. Engine\02. Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Math\Vector3.h">
+      <Filter>01. Engine\02. Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Math\Vector4.h">
+      <Filter>01. Engine\02. Math</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -64,13 +79,22 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Engine\Device\Device.cpp">
-      <Filter>01. Engine\Device</Filter>
+      <Filter>01. Engine\01. Device</Filter>
     </ClCompile>
     <ClCompile Include="Common\TimerManager.cpp">
       <Filter>00. Common</Filter>
     </ClCompile>
     <ClCompile Include="Engine\Engine.cpp">
       <Filter>01. Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Math\Vector2.cpp">
+      <Filter>01. Engine\02. Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Math\Vector3.cpp">
+      <Filter>01. Engine\02. Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Math\Vector4.cpp">
+      <Filter>01. Engine\02. Math</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -138,6 +138,10 @@
     <ClInclude Include="Common\TimerManager.h" />
     <ClInclude Include="Engine\Device\Device.h" />
     <ClInclude Include="Engine\Engine.h" />
+    <ClInclude Include="Engine\Math\EngineMath.h" />
+    <ClInclude Include="Engine\Math\Vector2.h" />
+    <ClInclude Include="Engine\Math\Vector3.h" />
+    <ClInclude Include="Engine\Math\Vector4.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
@@ -153,6 +157,9 @@
     <ClCompile Include="Common\TimerManager.cpp" />
     <ClCompile Include="Engine\Device\Device.cpp" />
     <ClCompile Include="Engine\Engine.cpp" />
+    <ClCompile Include="Engine\Math\Vector2.cpp" />
+    <ClCompile Include="Engine\Math\Vector3.cpp" />
+    <ClCompile Include="Engine\Math\Vector4.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
